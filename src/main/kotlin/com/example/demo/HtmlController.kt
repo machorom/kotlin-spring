@@ -1,17 +1,15 @@
-package com.example.demo.controller
+package com.example.demo
 
-import com.example.demo.Article
-import com.example.demo.ArticleRepository
-import com.example.demo.User
-import com.example.demo.format
+import com.example.demo.*
 import org.springframework.http.HttpStatus
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.ui.set
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
+import org.springframework.web.bind.annotation.RequestMapping
+import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.server.ResponseStatusException
-
 
 @Controller
 class HtmlController(private val repository: ArticleRepository) {
