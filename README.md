@@ -2,6 +2,8 @@
 kotlin spring tester
 
 
+Generator: Spring Initializr
+
 Artifact: "kotlin-spring"
 
 Type: "Gradle - Kotlin" or "Maven"
